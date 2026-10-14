@@ -1,0 +1,47 @@
+{
+  "accuracy": 0.7,
+  "training_examples": 30,
+  "test_examples": 10,
+  "classification_report": {
+    "No known risky pattern": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1-score": 0.7272727272727273,
+      "support": 5.0
+    },
+    "Potentially risky": {
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1-score": 0.6666666666666666,
+      "support": 5.0
+    },
+    "accuracy": 0.7,
+    "macro avg": {
+      "precision": 0.7083333333333333,
+      "recall": 0.7,
+      "f1-score": 0.696969696969697,
+      "support": 10.0
+    },
+    "weighted avg": {
+      "precision": 0.7083333333333333,
+      "recall": 0.7,
+      "f1-score": 0.696969696969697,
+      "support": 10.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      4,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "labels": [
+    "No known risky pattern",
+    "Potentially risky"
+  ],
+  "dataset_note": "Small illustrative dataset. Metrics do not represent real-world vulnerability detection performance."
+}

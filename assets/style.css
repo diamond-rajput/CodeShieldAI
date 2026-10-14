@@ -1,0 +1,95 @@
+
+/* CodeShield AI — Professional Dark Theme */
+
+.stApp {
+    background-color: #0b1120;
+    color: #e5edf8;
+}
+
+[data-testid="stHeader"] {
+    background-color: rgba(11, 17, 32, 0.92);
+}
+
+[data-testid="stSidebar"] {
+    background-color: #111a2e;
+    border-right: 1px solid #26344d;
+}
+
+[data-testid="stSidebar"] * {
+    color: #e5edf8;
+}
+
+h1, h2, h3 {
+    color: #f1f5f9;
+    letter-spacing: -0.4px;
+}
+
+p, label, .stMarkdown {
+    color: #cbd5e1;
+}
+
+div[data-testid="stMetric"] {
+    background: linear-gradient(145deg, #16243b, #111a2e);
+    border: 1px solid #2b3c56;
+    border-radius: 14px;
+    padding: 18px;
+}
+
+div[data-testid="stMetricLabel"] {
+    color: #94a3b8;
+}
+
+div[data-testid="stMetricValue"] {
+    color: #38bdf8;
+    font-weight: 700;
+}
+
+.stButton > button {
+    background: linear-gradient(90deg, #0284c7, #2563eb);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 0.55rem 1rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(90deg, #0369a1, #1d4ed8);
+    border: 1px solid #38bdf8;
+    color: white;
+}
+
+.stDownloadButton > button {
+    background-color: #14243a;
+    color: #7dd3fc;
+    border: 1px solid #2b5476;
+    border-radius: 9px;
+    font-weight: 600;
+}
+
+.stDownloadButton > button:hover {
+    background-color: #1d3553;
+    color: white;
+    border-color: #38bdf8;
+}
+
+div[data-testid="stDataFrame"] {
+    border: 1px solid #263852;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+div[data-testid="stExpander"] {
+    background-color: #111a2e;
+    border: 1px solid #263852;
+    border-radius: 10px;
+}
+
+hr {
+    border-color: #263852;
+}
+
+div[data-testid="stAlert"] {
+    border-radius: 10px;
+}
