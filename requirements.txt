@@ -1,0 +1,7 @@
+streamlit==1.65.0
+pandas
+scikit-learn
+joblib
+bandit==1.9.4
+reportlab
+plotly
